@@ -2,23 +2,33 @@ body{
     font-family: monospace;
     background-color: black;
     font-size: 1.4rem;
+
 }
 .card{
+    width: 40em;
     box-sizing: border-box;
-    padding-top: 1.8em;
-    padding-left: 1.8em;
-    padding-bottom: 3em;
+    padding-top: 1.5em;
+    padding-right: 2.8em;
+    padding-bottom: 3.5em;
     background-image: url(./assets/bg.jpg);
-    background-size: contain;
     background-repeat: no-repeat ;
+    background-size: cover;
     margin: auto;
+    text-align: right;
+    text-decoration: none;
 }
 .name{
-    font-weight:lighter;
-    font-size: 1.5em;
+    font-weight:bold;
+    font-size: 2em;
+    letter-spacing: 0.15em;
+    padding-bottom: 0.7em;
 }
 
-#twitter{
-
+.icon{
+    width: 5rem;
+}
+.link{
     text-decoration: none;
+    color: black;
+    font-size: xx-large;
 }
