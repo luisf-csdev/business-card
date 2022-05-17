@@ -1,0 +1,24 @@
+body{
+    font-family: monospace;
+    background-color: black;
+    font-size: 1.4rem;
+}
+.card{
+    box-sizing: border-box;
+    padding-top: 1.8em;
+    padding-left: 1.8em;
+    padding-bottom: 3em;
+    background-image: url(./assets/bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat ;
+    margin: auto;
+}
+.name{
+    font-weight:lighter;
+    font-size: 1.5em;
+}
+
+#twitter{
+
+    text-decoration: none;
+}
