@@ -1,8 +1,10 @@
+/* External font */
 body {
     background-color: black;
     font-family: "Ubuntu", sans-serif;
 }
 
+/* Card attributes */
 .card {
     width: 400px;
     height: 200px;
@@ -28,6 +30,7 @@ a {
     color: black;
 }
 
+/* List icons */
 .social {
     font-family: monospace;
     font-style: italic;
