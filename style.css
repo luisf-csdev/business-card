@@ -1,34 +1,49 @@
-body{
-    font-family: monospace;
+body {
     background-color: black;
-    font-size: 1.4rem;
-
+    font-family: "Ubuntu", sans-serif;
 }
-.card{
-    width: 40em;
+
+.card {
+    width: 400px;
+    height: 200px;
     box-sizing: border-box;
-    padding-top: 1.5em;
-    padding-right: 2.8em;
-    padding-bottom: 3.5em;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-right: 20px;
     background-image: url(./assets/bg.jpg);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+    margin-top: 10%;
     text-align: right;
-    text-decoration: none;
-}
-.name{
-    font-weight:bold;
-    font-size: 2em;
-    letter-spacing: 0.15em;
-    padding-bottom: 0.7em;
 }
 
-.icon{
-    width: 5rem;
+h1 {
+    font-weight: 300;
+    letter-spacing: 3px;
 }
-.link{
+
+a {
     text-decoration: none;
     color: black;
-    font-size: xx-large;
+}
+
+.social {
+    font-family: monospace;
+    font-style: italic;
+}
+
+#gh {
+    list-style-image: url(./assets/gh.png);
+    list-style-position: inside;
+}
+
+#tt {
+    list-style-image: url(./assets/tt.png);
+    list-style-position: inside;
+}
+
+#ig {
+    list-style-image: url(./assets/ig.png);
+    list-style-position: inside;
 }
