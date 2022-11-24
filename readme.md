@@ -1,6 +1,5 @@
 <h1>Business Card</h1>
 
-##
 <strong>Hello, guys!</strong><br>
 There's one more repository, but this time I've used HTML and CSS <br>
 This is the final version:<br>
